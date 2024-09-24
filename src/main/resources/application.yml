@@ -10,3 +10,7 @@ eureka:
     register-with-eureka: false
   server:
     registry-sync-retry-wait-ms: 0
+logging:
+  level:
+    com.netflix.eureka: OFF
+    com.netflix.discovery: OFF
